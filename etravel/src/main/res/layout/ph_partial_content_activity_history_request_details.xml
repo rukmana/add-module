@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_parent_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_parent_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_parent_start_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_parent_end_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_tpnum_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_tpnum_mid_plus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.52" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_tpnum_mid_minus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.46" />
+
+    <Button
+        android:id="@+id/btn_tp_number"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="TP-18-14687"
+        android:background="@color/button_disabled"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end_second"/>
+
+    <!-- Beginning of employee details section -->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_profile_image"
+        android:layout_width="64dp"
+        android:layout_height="0dp"
+        android:src="@drawable/ksatriya"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/white"
+        app:layout_constraintTop_toTopOf="@id/text_employee_name"
+        app:layout_constraintBottom_toBottomOf="@id/text_employee_division"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_vertical_parent_start"/>
+
+    <TextView
+        android:id="@+id/text_employee_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ksatriya Anantayutya"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toRightOf="@id/image_profile_image"
+        app:layout_constraintTop_toBottomOf="@id/btn_tp_number"
+        app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end_second"
+        style="@style/TextBold"/>
+
+    <TextView
+        android:id="@+id/text_employee_noreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01628170"
+        android:textSize="12sp"
+        android:textColor="@color/colorHintAccent"
+        android:paddingEnd="5dp"
+        app:layout_constraintLeft_toRightOf="@id/image_profile_image"
+        app:layout_constraintTop_toBottomOf="@id/text_employee_name"
+        app:layout_constraintRight_toLeftOf="@id/text_employee_dash"/>
+
+    <TextView
+        android:id="@+id/text_employee_dash"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/dash"
+        android:textSize="12sp"
+        android:textColor="@color/colorHintAccent"
+        android:paddingEnd="5dp"
+        app:layout_constraintLeft_toRightOf="@id/text_employee_noreg"
+        app:layout_constraintTop_toTopOf="@id/text_employee_noreg"/>
+
+    <TextView
+        android:id="@+id/text_employee_position"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Department Head"
+        android:textSize="12sp"
+        android:textColor="@color/colorHintAccent"
+        app:layout_constraintLeft_toRightOf="@id/text_employee_dash"
+        app:layout_constraintTop_toTopOf="@id/text_employee_noreg"
+        app:layout_constraintBottom_toBottomOf="@id/text_employee_noreg"
+        app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end_second"/>
+
+    <TextView
+        android:id="@+id/text_employee_division"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        app:layout_constraintTop_toBottomOf="@id/text_employee_noreg"
+        app:layout_constraintLeft_toRightOf="@id/image_profile_image"
+        app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end_second"
+        android:text="Information Security and Technology Division"
+        android:textColor="@color/colorHintAccent"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/trip_approval_process_details_text"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/approval_process"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintLeft_toRightOf="@id/guideline_vertical_parent_start"
+        app:layout_constraintTop_toBottomOf="@id/image_profile_image"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/include_layout_approval_process"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_vertical_parent_start"
+        app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end"
+        app:layout_constraintTop_toBottomOf="@id/trip_approval_process_details_text">
+
+        <include
+            layout="@layout/ph_recyclerview_adapter_approver_details"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/trip_travel_details_text"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/travel_details"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintLeft_toRightOf="@id/guideline_vertical_parent_start"
+        app:layout_constraintTop_toBottomOf="@id/include_layout_approval_process"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:id="@+id/expand_layout_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/ic_expand_less_primary_24dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toTopOf="@id/trip_travel_details_text"
+        app:layout_constraintBottom_toBottomOf="@id/trip_travel_details_text"
+        app:layout_constraintLeft_toRightOf="@id/trip_travel_details_text"/>
+
+    <!-- End of employee details section, beginning of trip itinerary section -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/collapsible_inner_travel_details_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/trip_travel_details_text"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_vertical_parent_start"
+        app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end"
+        android:visibility="visible">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_vertical_parent_start_second22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.1" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_vertical_parent_end_second22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.9" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_vertical_parent_start_007"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.07" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_vertical_parent_end_0817"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.817" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_vertical_tpnum_mid2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.50" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_vertical_tpnum_mid_plus22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.52" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_vertical_tpnum_mid_minus22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.46" />
+
+        <ImageView
+            android:id="@+id/image_flight_itinerary"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            app:srcCompat="@drawable/ic_flight_takeoff_primary_24dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_start_007"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/trip_itinerary_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/trip_itenerary"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintLeft_toRightOf="@id/image_flight_itinerary"
+            app:layout_constraintTop_toTopOf="@id/image_flight_itinerary"
+            app:layout_constraintBottom_toBottomOf="@id/image_flight_itinerary"/>
+
+        <LinearLayout
+            android:id="@+id/include_layout_starting_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end_second22"
+            app:layout_constraintTop_toBottomOf="@id/image_flight_itinerary">
+
+            <include
+                layout="@layout/pa_recyclerview_item_timeline"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/include_timeline_recycler_view_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end_second22"
+            app:layout_constraintTop_toBottomOf="@id/include_layout_starting_city"
+            android:visibility="visible">
+
+            <include
+                layout="@layout/pa_recyclerview_adapter_timelines"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_time_waiting"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ic_access_time_primary_24dp"
+            app:layout_constraintTop_toBottomOf="@id/include_timeline_recycler_view_layout"
+            app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_start_007"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/trip_date_details"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="15 Jan 2020 to 13 Jan 2020"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toTopOf="@id/image_time_waiting"
+            app:layout_constraintLeft_toRightOf="@id/image_time_waiting"
+            app:layout_constraintBottom_toBottomOf="@id/image_time_waiting"/>
+
+        <!-- End of itinerary section, beginning of objectives section -->
+
+        <ImageView
+            android:id="@+id/image_objectives"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ic_mode_comment_primary_24dp"
+            app:layout_constraintTop_toBottomOf="@id/image_time_waiting"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_start_007"/>
+
+        <TextView
+            android:id="@+id/objectives_details_title"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/objectives"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintLeft_toRightOf="@id/image_objectives"
+            app:layout_constraintTop_toTopOf="@id/image_objectives"
+            app:layout_constraintBottom_toBottomOf="@id/image_objectives"
+            app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end_second22"/>
+
+        <LinearLayout
+            android:id="@+id/include_objective_recycler_view_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="@id/objectives_details_title"
+            app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end_second22"
+            app:layout_constraintTop_toBottomOf="@id/objectives_details_title">
+
+            <include
+                layout="@layout/pa_recyclerview_adapter_objectives"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <!-- End of objectives section, beginning of expenses section -->
+
+        <ImageView
+            android:id="@+id/image_total_expenses"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ic_attach_money_primary_24dp"
+            app:layout_constraintTop_toBottomOf="@id/include_objective_recycler_view_layout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_start_007"/>
+
+        <TextView
+            android:id="@+id/expenses_details_title"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="@string/total_expenses"
+            android:textSize="16sp"
+            android:gravity="left"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintLeft_toRightOf="@id/image_total_expenses"
+            app:layout_constraintTop_toTopOf="@id/image_total_expenses"
+            app:layout_constraintBottom_toBottomOf="@id/image_total_expenses"
+            app:layout_constraintRight_toLeftOf="@id/guideline_vertical_tpnum_mid_minus22"/>
+
+        <TextView
+            android:id="@+id/total_expenses_total_ammount"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="79,000,000"
+            android:textSize="16sp"
+            android:gravity="right"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:textColor="@color/orange_color"
+            app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end_0817"
+            app:layout_constraintTop_toTopOf="@id/image_total_expenses"
+            app:layout_constraintBottom_toBottomOf="@id/image_total_expenses"
+            app:layout_constraintLeft_toLeftOf="@id/guideline_vertical_tpnum_mid_plus22"/>
+
+        <LinearLayout
+            android:id="@+id/include_expenses_recycler_view_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            app:layout_constraintLeft_toLeftOf="@id/expenses_details_title"
+            app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end_second22"
+            app:layout_constraintTop_toBottomOf="@id/expenses_details_title">
+
+            <include
+                layout="@layout/pa_recyclerview_adapter_allowance_outer_expenses"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

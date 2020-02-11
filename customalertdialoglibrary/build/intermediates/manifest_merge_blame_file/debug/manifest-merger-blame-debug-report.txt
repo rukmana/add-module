@@ -1,0 +1,17 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cn.pedant.SweetAlert"
+4    android:versionCode="14"
+5    android:versionName="1.6.2" >
+6
+7    <uses-sdk
+7-->/home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:6:5-47
+8        android:minSdkVersion="9"
+8-->/home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:6:5-47
+9        android:targetSdkVersion="27" />
+9-->/home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:6:15-44
+10
+11    <application />
+11-->/home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:7:5-20
+12
+13</manifest>

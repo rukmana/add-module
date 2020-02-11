@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titles">
+        <item>My Travel</item>
+        <item>My Settlement</item>
+    </string-array>
+</resources>

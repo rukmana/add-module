@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_id">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_profile_image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ksatriya"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <com.xfinity.dahdit.DottedLine
+        android:id="@+id/first_dash"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        app:dotRadius="2dp"
+        app:minimumDotGap="4dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp"
+        app:orientations="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintLeft_toLeftOf="@id/image_profile_image"
+        app:layout_constraintRight_toRightOf="@id/image_profile_image"
+        app:layout_constraintTop_toBottomOf="@id/image_profile_image"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/approval_status_text"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:text="Approved"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/image_profile_image"
+        app:layout_constraintBottom_toBottomOf="@id/image_profile_image"
+        />
+
+    <LinearLayout
+        android:id="@+id/include_layout_approval_process"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginStart="5dp"
+        app:layout_constraintLeft_toRightOf="@id/image_profile_image"
+        app:layout_constraintRight_toLeftOf="@id/approval_status_text"
+        app:layout_constraintTop_toTopOf="@id/image_profile_image"
+        app:layout_constraintBottom_toBottomOf="@id/image_profile_image">
+
+        <TextView
+            android:id="@+id/approval_status_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ksatriya Anantayutya"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            style="@style/TextBold"/>
+
+        <TextView
+            android:id="@+id/approval_status_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ksatriya Anantayutya"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

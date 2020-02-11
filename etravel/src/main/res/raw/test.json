@@ -1,0 +1,896 @@
+[
+  {
+    "DRAFT_NO": "9253",
+    "TP_NO": "TP-19-03765",
+    "NOREG": "01424978",
+    "EDITNAME": "CYTTA RIZKA APRILINA",
+    "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/01424978.jpg",
+    "BUSINESS_TRIP": "Overseas",
+    "STATUS_DESC": "Approved by DH",
+    "DIV_ORG_TITLE": "Information System & Technology Div",
+    "USD_EXCHANGE_RATE": "14,360.00",
+    "JPY_EXCHANGE_RATE": "129.66",
+    "DESTINATION": [
+      {
+        "TP_DESTINATION_SEQ": 1,
+        "CITY_COUNTRY": "Singapore",
+        "CITY": "s",
+        "OBJECTIVES": "s",
+        "FROM": "26/10/2019",
+        "UNTIL": "27/10/2019"
+      }
+    ],
+    "APPROVAL": [
+      {
+        "NOREG": "01324521",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "AANG PAMUJI DYAKSA",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/01324521.jpg",
+        "DOC_SEQ": 1
+      },
+      {
+        "NOREG": "01527757",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "MOCHAMMAD SAADI NURDIN",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/01527757.jpg",
+        "DOC_SEQ": 1
+      },
+      {
+        "NOREG": "00314132",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "TRI AGUNG WAHYU HANDRIAN",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/00314132.jpg",
+        "DOC_SEQ": 2
+      },
+      {
+        "NOREG": "09507542",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "ANDHIK YOEDHI POETRANTO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09507542.jpg",
+        "DOC_SEQ": 3
+      },
+      {
+        "NOREG": "00414311",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "DOCTOR",
+        "EDITNAME": "CHRISTIAN DWI ARYANTO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/00414311.jpg",
+        "DOC_SEQ": 4
+      },
+      {
+        "NOREG": "09105014",
+        "APPROVED_STATUS": "Inprocess",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "YOPI PARADA E.H.",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09105014.jpg",
+        "DOC_SEQ": 5
+      },
+      {
+        "NOREG": "09205190",
+        "APPROVED_STATUS": "Inprocess",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "DEVITA INDRIAWATI",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09205190.jpg",
+        "DOC_SEQ": 5
+      },
+      {
+        "NOREG": "09608225",
+        "APPROVED_STATUS": "",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "ROMDHONI",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09608225.jpg",
+        "DOC_SEQ": 6
+      },
+      {
+        "NOREG": "09709152",
+        "APPROVED_STATUS": "",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "PURWOKO DENI RAHWANTO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09709152.jpg",
+        "DOC_SEQ": 7
+      }
+    ],
+    "TP_ALLOWANCE": {
+      "directAllowance": {
+        "preparationAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "winterAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "dailyAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "110.00",
+          "allowanceJpy": null
+        }
+      },
+      "suspenseAllowance": {
+        "domesticLandTransport": {
+          "allowanceIdr": "350,000.00",
+          "allowanceUsd": null,
+          "allowanceJpy": null
+        },
+        "hotelAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "overseasLandTransport": {
+          "allowanceIdr": null,
+          "allowanceUsd": "50.00",
+          "allowanceJpy": null
+        },
+        "Miscellaneous": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "fiscalTaxes": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        }
+      },
+      "totalTransferInIdr": "2,647,600.00"
+    },
+    "TS_ALLOWANCE": null,
+    "TP_DESTINATION_DTL": [
+      {
+        "TP_DESTINATION_SEQ": 1,
+        "preparationAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "winterAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "dailyAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "110.00",
+          "allowanceJpy": null
+        },
+        "domesticLandTransport": {
+          "allowanceIdr": "350,000.00",
+          "allowanceUsd": null,
+          "allowanceJpy": null
+        },
+        "hotelAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "overseasLandTransport": {
+          "allowanceIdr": null,
+          "allowanceUsd": "50.00",
+          "allowanceJpy": null
+        },
+        "Miscellaneous": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "fiscalTaxes": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        }
+      }
+    ],
+    "TS_DESTINATION_DTL": null
+  },
+  {
+    "DRAFT_NO": "9251",
+    "TP_NO": "TP-19-03764",
+    "NOREG": "01629195",
+    "EDITNAME": "RIKO HASIANDO GOKNIPASU NAINGGOLAN",
+    "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/01629195.jpg",
+    "BUSINESS_TRIP": "Overseas",
+    "STATUS_DESC": "Approved by DH",
+    "DIV_ORG_TITLE": "Information System & Technology Div",
+    "USD_EXCHANGE_RATE": "14,360.00",
+    "JPY_EXCHANGE_RATE": "129.66",
+    "DESTINATION": [
+      {
+        "TP_DESTINATION_SEQ": 1,
+        "CITY_COUNTRY": "Thailand",
+        "CITY": "Bankok",
+        "OBJECTIVES": null,
+        "FROM": "30/10/2019",
+        "UNTIL": "31/10/2019"
+      }
+    ],
+    "APPROVAL": [
+      {
+        "NOREG": "09507542",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "ANDHIK YOEDHI POETRANTO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09507542.jpg",
+        "DOC_SEQ": 3
+      },
+      {
+        "NOREG": "00414311",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "DOCTOR",
+        "EDITNAME": "CHRISTIAN DWI ARYANTO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/00414311.jpg",
+        "DOC_SEQ": 4
+      },
+      {
+        "NOREG": "09105014",
+        "APPROVED_STATUS": "Inprocess",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "YOPI PARADA E.H.",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09105014.jpg",
+        "DOC_SEQ": 5
+      },
+      {
+        "NOREG": "09205190",
+        "APPROVED_STATUS": "Inprocess",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "DEVITA INDRIAWATI",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09205190.jpg",
+        "DOC_SEQ": 5
+      },
+      {
+        "NOREG": "09608225",
+        "APPROVED_STATUS": "",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "ROMDHONI",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09608225.jpg",
+        "DOC_SEQ": 6
+      },
+      {
+        "NOREG": "09709152",
+        "APPROVED_STATUS": "",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "PURWOKO DENI RAHWANTO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09709152.jpg",
+        "DOC_SEQ": 7
+      }
+    ],
+    "TP_ALLOWANCE": {
+      "directAllowance": {
+        "preparationAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "winterAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "dailyAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "120.00",
+          "allowanceJpy": null
+        }
+      },
+      "suspenseAllowance": {
+        "domesticLandTransport": {
+          "allowanceIdr": "0.00",
+          "allowanceUsd": null,
+          "allowanceJpy": null
+        },
+        "hotelAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "overseasLandTransport": {
+          "allowanceIdr": null,
+          "allowanceUsd": "50.00",
+          "allowanceJpy": null
+        },
+        "Miscellaneous": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "fiscalTaxes": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        }
+      },
+      "totalTransferInIdr": "2,441,200.00"
+    },
+    "TS_ALLOWANCE": null,
+    "TP_DESTINATION_DTL": [
+      {
+        "TP_DESTINATION_SEQ": 1,
+        "preparationAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "winterAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "dailyAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "120.00",
+          "allowanceJpy": null
+        },
+        "domesticLandTransport": {
+          "allowanceIdr": "0.00",
+          "allowanceUsd": null,
+          "allowanceJpy": null
+        },
+        "hotelAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "overseasLandTransport": {
+          "allowanceIdr": null,
+          "allowanceUsd": "50.00",
+          "allowanceJpy": null
+        },
+        "Miscellaneous": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "fiscalTaxes": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        }
+      }
+    ],
+    "TS_DESTINATION_DTL": null
+  },
+  {
+    "DRAFT_NO": "9234",
+    "TP_NO": "TP-19-03756",
+    "NOREG": "09507203",
+    "EDITNAME": "HAJANA",
+    "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09507203.jpg",
+    "BUSINESS_TRIP": "Overseas",
+    "STATUS_DESC": "Approved by DH",
+    "DIV_ORG_TITLE": "Human Resources Div",
+    "USD_EXCHANGE_RATE": "14,360.00",
+    "JPY_EXCHANGE_RATE": "129.66",
+    "DESTINATION": [
+      {
+        "TP_DESTINATION_SEQ": 1,
+        "CITY_COUNTRY": "Malaysia",
+        "CITY": "aaa",
+        "OBJECTIVES": "Training medical something",
+        "FROM": "15/07/2019",
+        "UNTIL": "16/07/2019"
+      }
+    ],
+    "APPROVAL": [
+      {
+        "NOREG": "01323745",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "OKTIVIASARI",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/01323745.jpg",
+        "DOC_SEQ": 1
+      },
+      {
+        "NOREG": "00516876",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "HENRY S. WIBOWO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/00516876.jpg",
+        "DOC_SEQ": 2
+      },
+      {
+        "NOREG": "09405678",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "I MADE SURYA WIBAWA",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09405678.jpg",
+        "DOC_SEQ": 3
+      },
+      {
+        "NOREG": "00414311",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "DOCTOR",
+        "EDITNAME": "CHRISTIAN DWI ARYANTO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/00414311.jpg",
+        "DOC_SEQ": 4
+      },
+      {
+        "NOREG": "09105014",
+        "APPROVED_STATUS": "Inprocess",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "YOPI PARADA E.H.",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09105014.jpg",
+        "DOC_SEQ": 5
+      },
+      {
+        "NOREG": "09205190",
+        "APPROVED_STATUS": "Inprocess",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "DEVITA INDRIAWATI",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09205190.jpg",
+        "DOC_SEQ": 5
+      },
+      {
+        "NOREG": "09608225",
+        "APPROVED_STATUS": "",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "ROMDHONI",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09608225.jpg",
+        "DOC_SEQ": 6
+      },
+      {
+        "NOREG": "09709152",
+        "APPROVED_STATUS": "",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "PURWOKO DENI RAHWANTO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09709152.jpg",
+        "DOC_SEQ": 7
+      }
+    ],
+    "TP_ALLOWANCE": {
+      "directAllowance": {
+        "preparationAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "winterAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "dailyAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "110.00",
+          "allowanceJpy": null
+        }
+      },
+      "suspenseAllowance": {
+        "domesticLandTransport": {
+          "allowanceIdr": "350,000.00",
+          "allowanceUsd": null,
+          "allowanceJpy": null
+        },
+        "hotelAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "110.00",
+          "allowanceJpy": null
+        },
+        "overseasLandTransport": {
+          "allowanceIdr": null,
+          "allowanceUsd": "50.00",
+          "allowanceJpy": null
+        },
+        "Miscellaneous": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "fiscalTaxes": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        }
+      },
+      "totalTransferInIdr": "4,227,200.00"
+    },
+    "TS_ALLOWANCE": null,
+    "TP_DESTINATION_DTL": [
+      {
+        "TP_DESTINATION_SEQ": 1,
+        "preparationAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "winterAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "dailyAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "110.00",
+          "allowanceJpy": null
+        },
+        "domesticLandTransport": {
+          "allowanceIdr": "350,000.00",
+          "allowanceUsd": null,
+          "allowanceJpy": null
+        },
+        "hotelAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "110.00",
+          "allowanceJpy": null
+        },
+        "overseasLandTransport": {
+          "allowanceIdr": null,
+          "allowanceUsd": "50.00",
+          "allowanceJpy": null
+        },
+        "Miscellaneous": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "fiscalTaxes": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        }
+      }
+    ],
+    "TS_DESTINATION_DTL": null
+  },
+  {
+    "DRAFT_NO": "9228",
+    "TP_NO": "TP-19-03753",
+    "NOREG": "01629195",
+    "EDITNAME": "RIKO HASIANDO GOKNIPASU NAINGGOLAN",
+    "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/01629195.jpg",
+    "BUSINESS_TRIP": "Overseas",
+    "STATUS_DESC": "Dibatalkan",
+    "DIV_ORG_TITLE": "Information System & Technology Div",
+    "USD_EXCHANGE_RATE": "14,360.00",
+    "JPY_EXCHANGE_RATE": "129.66",
+    "DESTINATION": [
+      {
+        "TP_DESTINATION_SEQ": 1,
+        "CITY_COUNTRY": "Singapore",
+        "CITY": "Singapore",
+        "OBJECTIVES": null,
+        "FROM": "25/07/2019",
+        "UNTIL": "26/07/2019"
+      }
+    ],
+    "APPROVAL": [
+      {
+        "NOREG": "09507542",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "ANDHIK YOEDHI POETRANTO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09507542.jpg",
+        "DOC_SEQ": 3
+      },
+      {
+        "NOREG": "00414311",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "DOCTOR",
+        "EDITNAME": "CHRISTIAN DWI ARYANTO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/00414311.jpg",
+        "DOC_SEQ": 4
+      },
+      {
+        "NOREG": "09105014",
+        "APPROVED_STATUS": "Inprocess",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "YOPI PARADA E.H.",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09105014.jpg",
+        "DOC_SEQ": 5
+      },
+      {
+        "NOREG": "09205190",
+        "APPROVED_STATUS": "Inprocess",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "DEVITA INDRIAWATI",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09205190.jpg",
+        "DOC_SEQ": 5
+      },
+      {
+        "NOREG": "09608225",
+        "APPROVED_STATUS": "",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "ROMDHONI",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09608225.jpg",
+        "DOC_SEQ": 6
+      },
+      {
+        "NOREG": "09709152",
+        "APPROVED_STATUS": "",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "PURWOKO DENI RAHWANTO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09709152.jpg",
+        "DOC_SEQ": 7
+      }
+    ],
+    "TP_ALLOWANCE": {
+      "directAllowance": {
+        "preparationAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "winterAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "dailyAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "120.00",
+          "allowanceJpy": null
+        }
+      },
+      "suspenseAllowance": {
+        "domesticLandTransport": {
+          "allowanceIdr": "300,000.00",
+          "allowanceUsd": null,
+          "allowanceJpy": null
+        },
+        "hotelAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "overseasLandTransport": {
+          "allowanceIdr": null,
+          "allowanceUsd": "50.00",
+          "allowanceJpy": null
+        },
+        "Miscellaneous": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "fiscalTaxes": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        }
+      },
+      "totalTransferInIdr": "2,741,200.00"
+    },
+    "TS_ALLOWANCE": null,
+    "TP_DESTINATION_DTL": [
+      {
+        "TP_DESTINATION_SEQ": 1,
+        "preparationAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "winterAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "dailyAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "120.00",
+          "allowanceJpy": null
+        },
+        "domesticLandTransport": {
+          "allowanceIdr": "300,000.00",
+          "allowanceUsd": null,
+          "allowanceJpy": null
+        },
+        "hotelAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "overseasLandTransport": {
+          "allowanceIdr": null,
+          "allowanceUsd": "50.00",
+          "allowanceJpy": null
+        },
+        "Miscellaneous": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "fiscalTaxes": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        }
+      }
+    ],
+    "TS_DESTINATION_DTL": null
+  },
+  {
+    "DRAFT_NO": "9147",
+    "TP_NO": "TP-18-03706",
+    "NOREG": "01527682",
+    "EDITNAME": "FILEMON CALVIN SUCANDRA",
+    "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/01527682.jpg",
+    "BUSINESS_TRIP": "Overseas",
+    "STATUS_DESC": "Approved by DH",
+    "DIV_ORG_TITLE": "Finance Div",
+    "USD_EXCHANGE_RATE": "14,360.00",
+    "JPY_EXCHANGE_RATE": "129.66",
+    "DESTINATION": [
+      {
+        "TP_DESTINATION_SEQ": 1,
+        "CITY_COUNTRY": "Thailand",
+        "CITY": "Bangkok",
+        "OBJECTIVES": "Home Searching ICT",
+        "FROM": "22/08/2018",
+        "UNTIL": "23/08/2018"
+      }
+    ],
+    "APPROVAL": [
+      {
+        "NOREG": "09405678",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "I MADE SURYA WIBAWA",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09405678.jpg",
+        "DOC_SEQ": 1
+      },
+      {
+        "NOREG": "00516031",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "ERICK YULIUS",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/00516031.jpg",
+        "DOC_SEQ": 2
+      },
+      {
+        "NOREG": "01424843",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "ARDANTI MURTISARI",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/01424843.jpg",
+        "DOC_SEQ": 2
+      },
+      {
+        "NOREG": "00517047",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "AHSANUL KHALIQIN",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/00517047.jpg",
+        "DOC_SEQ": 3
+      },
+      {
+        "NOREG": "09405642",
+        "APPROVED_STATUS": "Finish",
+        "APPROVAL_LEVEL": "USER",
+        "EDITNAME": "YANDRI PARDOMUAN SIREGAR",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09405642.jpg",
+        "DOC_SEQ": 4
+      },
+      {
+        "NOREG": "09105014",
+        "APPROVED_STATUS": "Inprocess",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "YOPI PARADA E.H.",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09105014.jpg",
+        "DOC_SEQ": 5
+      },
+      {
+        "NOREG": "09205190",
+        "APPROVED_STATUS": "Inprocess",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "DEVITA INDRIAWATI",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09205190.jpg",
+        "DOC_SEQ": 5
+      },
+      {
+        "NOREG": "09608225",
+        "APPROVED_STATUS": "",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "ROMDHONI",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09608225.jpg",
+        "DOC_SEQ": 6
+      },
+      {
+        "NOREG": "09709152",
+        "APPROVED_STATUS": "",
+        "APPROVAL_LEVEL": "GAD",
+        "EDITNAME": "PURWOKO DENI RAHWANTO",
+        "PATH_LOCATION": "https://hrportal.toyota.co.id/Content/images/09709152.jpg",
+        "DOC_SEQ": 7
+      }
+    ],
+    "TP_ALLOWANCE": {
+      "directAllowance": {
+        "preparationAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "300.00",
+          "allowanceJpy": null
+        },
+        "winterAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "dailyAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "120.00",
+          "allowanceJpy": null
+        }
+      },
+      "suspenseAllowance": {
+        "domesticLandTransport": {
+          "allowanceIdr": "300,000.00",
+          "allowanceUsd": null,
+          "allowanceJpy": null
+        },
+        "hotelAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "overseasLandTransport": {
+          "allowanceIdr": null,
+          "allowanceUsd": "50.00",
+          "allowanceJpy": null
+        },
+        "Miscellaneous": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "fiscalTaxes": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        }
+      },
+      "totalTransferInIdr": "7,049,200.00"
+    },
+    "TS_ALLOWANCE": null,
+    "TP_DESTINATION_DTL": [
+      {
+        "TP_DESTINATION_SEQ": 1,
+        "preparationAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "300.00",
+          "allowanceJpy": null
+        },
+        "winterAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "dailyAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "120.00",
+          "allowanceJpy": null
+        },
+        "domesticLandTransport": {
+          "allowanceIdr": "300,000.00",
+          "allowanceUsd": null,
+          "allowanceJpy": null
+        },
+        "hotelAllowance": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "overseasLandTransport": {
+          "allowanceIdr": null,
+          "allowanceUsd": "50.00",
+          "allowanceJpy": null
+        },
+        "Miscellaneous": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        },
+        "fiscalTaxes": {
+          "allowanceIdr": null,
+          "allowanceUsd": "0.00",
+          "allowanceJpy": null
+        }
+      }
+    ],
+    "TS_DESTINATION_DTL": null
+  }
+]

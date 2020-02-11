@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    <androidx.appcompat.widget.AppCompatEditText-->
+<!--        android:id="@+id/et_phone_number"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="phone number"-->
+<!--        android:textColorHint="@color/colorPrimary40"-->
+<!--        android:textColor="@color/colorPrimary"-->
+<!--        android:layout_margin="20dp"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatEditText-->
+<!--        android:id="@+id/et_otp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="otp"-->
+<!--        android:textColorHint="@color/colorPrimary40"-->
+<!--        android:clickable="false"-->
+<!--        android:textColor="@color/colorPrimary"-->
+<!--        android:layout_margin="20dp"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_generate_otp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="generate otp"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_margin="20dp"/>-->
+<!--    <Button-->
+<!--        android:id="@+id/btn_sign_in"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="verify sign in"-->
+<!--        android:background="@color/colorAccent"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_margin="20dp"/>-->
+
+    <include layout="@layout/content_activity_main_first_login_page"
+        android:id="@+id/layout_1"
+        android:visibility="visible"/>
+
+    <include layout="@layout/content_activity_main_phone_num_login_page"
+        android:id="@+id/layout_2"
+        android:visibility="gone"/>
+
+    <include layout="@layout/content_activity_main_otp_login_page"
+        android:id="@+id/layout_3"
+        android:visibility="gone"/>
+
+</LinearLayout>

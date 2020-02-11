@@ -1,0 +1,35 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:1:1-9:12
+	package
+		ADDED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:2:5-35
+		INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml
+		INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml
+		INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml
+		INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:6:5-47
+INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:6:5-47
+INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:6:5-47
+	android:targetSdkVersion
+		ADDED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:6:15-44
+	android:minSdkVersion
+		INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml
+		ADDED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:6:5-47
+		INJECTED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml
+application
+ADDED from /home/apc-lap011/projectTugas/MyApplicationapp/customalertdialoglibrary/src/main/AndroidManifest.xml:7:5-20

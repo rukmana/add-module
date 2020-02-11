@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.Settlement.Approver.SettlementApproverRequestDetails"
+    tools:showIn="@layout/sa_activity_approver_request_details">
+
+    <!-- Beginning of toolbar section -->
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:elevation="5dp">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/layout_red_dummy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_horizontal_mid"/>
+
+    <!-- End of toolbar section, beginning of overall balance section -->
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_parent_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_parent_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_profile_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.74" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_parent_start_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_parent_button_down_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="82dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_parent_end_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_mid_plus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.52" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_tpnum_mid_minus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.48" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/text_overall_balance_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/overall_balance"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toRightOf="@id/guideline_vertical_parent_start_second"
+        app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end_second"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <TextView
+        android:id="@+id/text_overall_balance_ammount"
+        style="@style/TextBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IDR 2.000.000"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintLeft_toRightOf="@id/guideline_vertical_parent_start_second"
+        app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end_second"
+        app:layout_constraintTop_toBottomOf="@id/text_overall_balance_title" />
+
+    <TextView
+        android:id="@+id/text_status_settlement_approval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waiting for GAD approval."
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintRight_toRightOf="@id/text_overall_balance_ammount"
+        app:layout_constraintTop_toBottomOf="@id/text_overall_balance_ammount" />
+
+    <TextView
+        android:id="@+id/dummy"
+        style="@style/TextBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Yoga,"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toRightOf="@id/text_overall_balance_title"
+        app:layout_constraintTop_toBottomOf="@id/text_overall_balance_title" />
+
+    <ImageView
+        android:id="@+id/btn_settlement_question_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/ic_help_outline_white_24dp"
+        app:layout_constraintBottom_toBottomOf="@id/text_status_settlement_approval"
+        app:layout_constraintLeft_toRightOf="@id/text_status_settlement_approval"
+        app:layout_constraintTop_toTopOf="@id/text_status_settlement_approval" />
+
+    <!-- End of overall balance section, beginning of allocation section -->
+
+    <LinearLayout
+        android:id="@+id/layout_arrow_down"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button_primary_round_button"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@id/text_settlement_allocation_detail"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_vertical_parent_start_second"
+        app:layout_constraintTop_toBottomOf="@id/text_status_settlement_approval">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_arrow_downward_green_24dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_settlement_allocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Allocation"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@id/layout_arrow_down"
+        app:layout_constraintTop_toTopOf="@id/layout_arrow_down" />
+
+    <TextView
+        android:id="@+id/text_settlement_allocation_detail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="IDR 20.000.000"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:singleLine="true"
+        app:layout_constraintBottom_toBottomOf="@id/layout_arrow_down"
+        app:layout_constraintLeft_toRightOf="@id/layout_arrow_down"
+        app:layout_constraintRight_toRightOf="@id/guideline_vertical_mid_plus2"
+        app:layout_constraintTop_toBottomOf="@id/text_settlement_allocation" />
+
+    <!-- End of allocation section, beginning of expenses section -->
+
+    <LinearLayout
+        android:id="@+id/layout_arrow_up"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button_primary_round_button"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_vertical_mid_plus2"
+        app:layout_constraintTop_toBottomOf="@id/text_status_settlement_approval">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_arrow_upward_primary_24dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_settlement_expenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Expenses"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@id/layout_arrow_up"
+        app:layout_constraintTop_toTopOf="@id/layout_arrow_up" />
+
+    <TextView
+        android:id="@+id/text_settlement_expenses_detail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="IDR 20.000.000"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@id/layout_arrow_up"
+        app:layout_constraintLeft_toRightOf="@id/layout_arrow_up"
+        app:layout_constraintRight_toRightOf="@id/guideline_vertical_parent_end"
+        app:layout_constraintTop_toBottomOf="@id/text_settlement_allocation" />
+
+    <!-- End of expenses section, beginning of white layout section -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_cardview_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_arrow_down">
+
+        <include layout="@layout/sa_partial_content_activity_approver_request_details" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- End of white layout section -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

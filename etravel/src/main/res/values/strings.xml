@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">My Travel</string>
+
+    <string name="travel_approval">Travel Approval</string>
+    <string name="travel_request_details">Travel Details</string>
+    <string name="oversea_trip">Overseas</string>
+    <string name="domestic_trip">Domestic</string>
+    <string name="starting_city">Starting City</string>
+    <string name="destination_city">Destination City</string>
+    <string name="multiple_destinations">Multiple Destinations</string>
+    <string name="start_trip">Start Trip</string>
+    <string name="end_trip">End Trip</string>
+    <string name="days">days</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="idr">IDR\u0020</string>
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+    <string name="open_request_details">Open request details ></string>
+    <string name="trip_itenerary">Trip Itenerary</string>
+    <string name="trip_length">Trip Length</string>
+    <string name="travel_objectives">Travel Objectives</string>
+    <string name="collapse">Collapse</string>
+    <string name="select_all_travel_inquiries">Select all travel approval inquiries\u0020</string>
+    <string name="open_bracket">(</string>
+    <string name="close_bracket">)</string>
+    <string name="loading">Loading…</string>
+    <string name="error_loading">Error loading. Click to retry.</string>
+    <string name="search">Search</string>
+    <string name="type_name">Search</string>
+    <string name="load_more">Load more data…</string>
+    <string name="dash">-</string>
+    <string name="objectives">Travel Objective</string>
+    <string name="approval_process">Approval Process</string>
+    <string name="approval_history">Approval History</string>
+    <string name="travel_details">Travel Details</string>
+    <string name="hi">Hi</string>
+    <string name="travel_dashboard_greeting">Welcome to Travel Dashboard.</string>
+    <string name="my_travel">My Travel</string>
+    <string name="my_settlement">My Settlement</string>
+    <string name="status_check">Status Check</string>
+    <string name="create_new_proposal">Create New Proposal</string>
+    <string name="approval_description">Proposal(s) waiting for your approval.</string>
+    <string name="pending_approval_text">Pending Proposal(s).</string>
+    <string name="pending_settlement_text">Pending Settlement(s).</string>
+    <string name="settlement_approval">Settlement Approval.</string>
+    <string name="settlement_approval_description">Settlement(s) waiting for your approval.</string>
+
+    <!-- Settlement -->
+    <string name="select_all_settlement_inquiries">Select all settlement approval inquiries\u0020</string>
+    <string name="overall_balance">Overall Balance</string>
+    <string name="spent">Spent</string>
+    <string name="view_receipt">View Receipt</string>
+    <string name="allocated">Allocated</string>
+    <string name="balance">Balance</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Content for the settlement goes here…</string>
+</resources>
